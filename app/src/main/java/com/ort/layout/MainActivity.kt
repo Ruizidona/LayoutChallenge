@@ -9,6 +9,9 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
+import com.ort.layout.screens.LoginScreen
+import com.ort.layout.screens.RegisterScreen
+import com.ort.layout.screens.WelcomeScreen
 import com.ort.layout.ui.theme.LayoutChallengeTheme
 
 class MainActivity : ComponentActivity() {
@@ -17,7 +20,6 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             LayoutChallengeTheme {
-                // Surface aplica el color de fondo definido en tu tema
                 Surface(
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
